@@ -36,3 +36,20 @@ void main() { //Converting int to to double
   double result = number + addition;
   print(result)
 }
+
+
+Question 3. Checking if the number is nagtive, positive, or zero.
+
+  Answer 3.
+
+  void main() { //Checking if the number is positive, negative, or zero.
+  int number = 10;
+
+  if (number > 0) {
+  print("The number is positive");
+} else if (number == 0) {
+  print("The number is zero");
+} else {
+  print("The number is negative.");
+}
+}
