@@ -73,3 +73,14 @@ Question 4. Create a program that: Uses a switch statement to print the day of t
     print("Today is Wednesday!");
   }
 }
+
+
+Question 5.  Loops: Implement the following: A for loop that prints numbers from 1 to 10.
+
+  Answer 5.
+
+  void main() {
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+  }
+}
