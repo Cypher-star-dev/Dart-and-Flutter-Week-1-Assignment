@@ -53,3 +53,23 @@ Question 3. Checking if the number is nagtive, positive, or zero.
   print("The number is negative.");
 }
 }
+
+
+Question 4. Create a program that: Uses a switch statement to print the day of the week based on a given int (1 for Monday, 2 for Tuesday, etc.)
+
+  Answer 4. 
+
+  void main() { //Switch case statements
+  int day = 3;
+
+  switch (day) {
+    case 1:
+    print("It's Monday today");
+    break;
+    case 2:
+    print("Today is Tuesday");
+    break;
+    case 3:
+    print("Today is Wednesday!");
+  }
+}
